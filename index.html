@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vrushti V. Jawalge | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">Vrushti V.J<span class="dot">.</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+        <i class="fas fa-sun" id="themeIcon"></i>
+      </button>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="blob blob1"></div>
+      <div class="blob blob2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Vrushti V.<br /><span class="gradient-text">Jawalge</span></h1>
+      <div class="hero-role">
+        <span class="role-prefix">&lt;</span>
+        <span id="typed"></span>
+        <span class="cursor">|</span>
+        <span class="role-suffix">/&gt;</span>
+      </div>
+      <p class="hero-desc">Diploma IT student passionate about building real-world web &amp; Android applications. Turning ideas into impactful digital experiences.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/VrushtiJawalge" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:jawalgevrushti@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll Down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">01. About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">
+              <img src="vj.jpeg" alt="Vrushti V. Jawalge" class="avatar-photo" />
+            </div>
+            <div class="avatar-badge"><i class="fas fa-code"></i> Developer</div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">Fronted</span>
+              <span class="stat-label">Developer</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">10+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">8+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>I'm a <strong>Diploma in Information Technology</strong> student from Rajiv Gandhi Institute of Polytechnics, Latur, with hands-on experience building web and Android applications.</p>
+          <p>My projects focus on real-world use cases — from resume analysis platforms to women safety apps — combining practical problem-solving with clean, user-focused design.</p>
+          <p>I'm currently seeking <strong>junior software or web/Android developer roles</strong> where I can apply my skills, grow with modern technologies, and contribute to meaningful products.</p>
+          <div class="about-tags">
+            <span>Web Development</span>
+            <span>Android Dev</span>
+            <span>Problem Solving</span>
+            <span>DSA (Learning)</span>
+          </div>
+          <a href="mailto:jawalgevrushti@gmail.com" class="btn btn-primary">Hire Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">02. Skills</span>
+        <h2 class="section-title">My Toolbox</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-terminal"></i> Languages</h3>
+          <div class="skill-pills">
+            <div class="skill-pill"><span class="skill-icon">C</span> C</div>
+            <div class="skill-pill"><span class="skill-icon">C++</span> C++</div>
+            <div class="skill-pill"><span class="skill-icon">Jv</span> Java</div>
+            <div class="skill-pill"><span class="skill-icon">SQ</span> SQL</div>
+            <div class="skill-pill"><span class="skill-icon">XM</span> XML</div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+          <div class="skill-pills">
+            <div class="skill-pill"><span class="skill-icon">&lt;/&gt;</span> HTML</div>
+            <div class="skill-pill"><span class="skill-icon">CSS</span> CSS</div>
+            <div class="skill-pill"><span class="skill-icon">JS</span> JavaScript</div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i>Tools</h3>
+          <div class="skill-pills">
+            <div class="skill-pill"><span class="skill-icon">MG</span> VS code</div>
+            <div class="skill-pill"><span class="skill-icon">FB</span> Android Studio</div>
+            <div class="skill-pill"><span class="skill-icon">GH</span> GitHub</div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-mobile-alt"></i> Mobile &amp; More</h3>
+          <div class="skill-pills">
+            <div class="skill-pill"><span class="skill-icon">An</span> Android</div>
+            <div class="skill-pill"><span class="skill-icon">DS</span> DSA (Learning)</div>
+          </div>
+        </div>
+      </div>
+      <div class="cert-section-header">
+        <h3><i class="fas fa-award"></i> Certifications &amp; Awards</h3>
+      </div>
+      <div class="cert-strip">
+        <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+        <div class="cert-info">
+          <strong>App Development Certification</strong>
+          <span>Completed professional training in mobile application development and implementation.</span>
+        </div>
+        <div class="cert-badge"> 2024 – 2025</div>
+      </div>
+      <div class="cert-strip award-strip">
+        <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+        <div class="cert-info">
+          <strong>Achiever Student Award</strong>
+          <span>Honored for exceptional academic performance and recognized among top-performing students for the academic year 2022–2023.</span>
+        </div>
+        <div class="cert-badge award-badge">2022–2023</div>
+      </div>
+      <div class="cert-strip ds-strip">
+        <div class="cert-icon"><i class="fas fa-flask"></i></div>
+        <div class="cert-info">
+          <strong>Data Science Challenge — Certificate of Achievement</strong>
+          <span>Issued by Mandi Hariyanna Academy. Successfully passed the rigorous Data Science Challenge demonstrating exceptional proficiency in statistics, machine learning algorithms, and data analysis.</span>
+          <span class="cert-date"><i class="fas fa-star"></i> Score: 20/20</span>
+        </div>
+        <div class="cert-badge ds-badge">2025–2026</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">03. Projects</span>
+        <h2 class="section-title">Things I've Built</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-folder"><i class="fas fa-folder-open"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/VrushtiJawalge" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-badge">Featured</span>
+            <h3 class="project-title">Resume Analyzer &amp; Builder</h3>
+            <p class="project-desc">A full-stack platform for resume analysis and blogging. Provides content improvement suggestions through a clean, user-friendly interface.</p>
+            <ul class="project-highlights">
+              <li>Resume analysis with readability scoring</li>
+              <li>Blog platform with Firebase Authentication</li>
+              <li>Content improvement suggestion engine</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Firebase</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-folder"><i class="fas fa-folder-open"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/VrushtiJawalge" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <span class="project-badge safety">Social Impact</span>
+            <h3 class="project-title">Nirbhaya — Women Safety App</h3>
+            <p class="project-desc">An Android application focused on women's safety with real-time SOS alerts, live location sharing, and emergency contact management.</p>
+            <ul class="project-highlights">
+              <li>One-tap SOS alert system</li>
+              <li>Live GPS location sharing</li>
+              <li>Emergency contact management</li>
+            </ul>
+          </div>
+          <div class="project-tech">
+            <span>Java</span><span>XML</span><span>Android</span><span>Firebase</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">04. Education</span>
+        <h2 class="section-title">My Background</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Diploma in Information Technology</h3>
+                <p class="timeline-inst">Rajiv Gandhi Institute of Polytechnics, Latur</p>
+              </div>
+              <div class="timeline-score">
+                <span class="score-date"><i class="fas fa-calendar-alt"></i> 2023 – 2026</span>
+                <span class="score-num">87.25%</span>
+                <span class="score-label">Percentage</span>
+              </div>
+            </div>
+            <div class="timeline-tags">
+              <span>Web Development</span>
+              <span>Android Development</span>
+              <span>Data Structures</span>
+              <span>DBMS</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>SSC (10th Standard)</h3>
+                <p class="timeline-inst">Navjeevan Vidyalay Mangrul</p>
+              </div>
+              <div class="timeline-score">
+                <span class="score-date"><i class="fas fa-calendar-alt"></i> 2022 – 2023</span>
+                <span class="score-num">84.60%</span>
+                <span class="score-label">Percentage</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="languages-row">
+        <h3>Languages I Speak</h3>
+        <div class="lang-pills">
+          <div class="lang-pill"><i class="fas fa-language"></i> English</div>
+          <div class="lang-pill"><i class="fas fa-language"></i> Hindi</div>
+          <div class="lang-pill"><i class="fas fa-language"></i> Marathi</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">05. Contact</span>
+        <h2 class="section-title">Let's Connect</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-intro">I'm currently open to junior developer opportunities. Whether you have a question, a project idea, or just want to say hi — my inbox is always open.</p>
+          <div class="contact-items">
+            <a href="mailto:jawalgevrushti@gmail.com" class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="contact-item-label">Email</span>
+                <span class="contact-item-value">jawalgevrushti@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/VrushtiJawalge" target="_blank" class="contact-item">
+              <div class="contact-item-icon"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact-item-label">GitHub</span>
+                <span class="contact-item-value">github.com/VrushtiJawalge</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span class="contact-item-label">Location</span>
+                <span class="contact-item-value">Latur, Maharashtra, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; Built by <span class="gradient-text">Vrushti V. Jawalge</span></p>
+      <p class="footer-sub">Diploma IT Student · Latur, Maharashtra</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
